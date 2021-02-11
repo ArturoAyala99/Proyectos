@@ -1,0 +1,88 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/2880x1800/1611/Absolut-Vodka-liquor-bottles_2880x1800.jpg);
+    background-size: 100%;
+    text-align: center;
+    font-family: Arial;
+}
+
+.menucontenedor{
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.menucontenedor header nav{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 40px;
+    background:white;
+    opacity: .7;
+}
+
+.menucontenedor header nav ul{
+    list-style: none;
+}
+.menucontenedor header nav ul li{
+    float: left;
+    
+}
+.menucontenedor header nav ul li a{
+    font-size: 20px;
+}
+#galeria{
+    display: inline;
+    color: black;
+    margin-right: 200px;
+    margin-left: 300px;
+    text-decoration: none;
+}
+#contacto{
+    display: inline;
+    color: black;
+    margin-right: 200px;
+    text-decoration: none;
+}
+ #inicio{
+    display: inline;
+    color: black;
+    margin-right: auto;
+    text-decoration: none;
+}
+ 
+
+#subject{
+    background: black;
+    height: 30px;
+    color: white;
+}
+#agregar{
+    border-radius: 10%;
+    background: green;
+    height: 35px;
+    color: white;
+}
+#eliminar{
+    border-radius: 10%;
+    background: red;
+    height: 35px;
+    color: white;
+}
+#editar{
+    border-radius: 10%;
+    background: purple;
+    height: 35px;
+    color: white;
+}
+
+ol{
+    background:palevioletred ;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}

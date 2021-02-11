@@ -1,0 +1,130 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Licorería</title>
+        <link rel="stylesheet" type="text/css" href="inicio.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    </head>
+
+    <body>
+
+        <div class="menucontenedor">
+            <header>
+                <h1>Licorería</h1>
+
+                <nav>
+                    <ul>
+                        <li> <a id="galeria" href="inicio.html">Inicio</a> </li>
+                        <li> <a id="contacto" href="contacto.html">Contacto</a> </li>
+                        <li> <a id="inicio" href="galeria.html">Galería</a> </li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+
+        <div class="carousel">
+
+            <input type="button" name="prev" id="prev" value="PREV">
+
+            <div id="imagen1"></div>
+            <div id="imagen2"></div>
+            <div id="imagen3"></div>
+            <div id="imagen4"></div>
+            <div id="imagen5"></div>
+
+            <input type="button" name="next" id="next" value="NEXT">
+
+        </div>
+        
+        <div class="controles">
+            <button id="play">Play</button>
+            <button id="stop" disabled>Stop</button>
+        </div>
+
+
+        <div class="contenido">
+            <table border="1">
+                <thead>
+                    <tr>
+                      <th>Licor</th>
+                      <th>Descripción</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                      <td> <img id ="jw"src="https://i.pinimg.com/originals/63/72/13/637213fccfc71ada774443a8476f5b1b.png"> </td>
+                      <td>
+                          <article>
+                              <p>
+                                  Johnnie Walker  es una marca de whisky escocés ahora propiedad de Diageo 
+                                  que se originó en la ciudad escocesa de Kilmarnock, East Ayrshire.
+                                  La marca fue establecida por primera vez por el tendero John Walker.
+                                  Es la marca de whisky escocés mezclado más ampliamente distribuida en el mundo,
+                                  vendida en casi todos los países, con ventas anuales equivalentes a más de 223.7 millones de botellas de 700 ml en 2016 (156.6 millones de litros). 
+                                  <a href="agregar.html">Agregar botella</a>       
+                              </p>
+                          </article>
+                      </td>
+                    </tr>
+
+                    <tr>
+                        <td><img id="cm" src="https://resources.claroshop.com/medios-plazavip/s2/11073/1283986/5dfa7f0f868c8-082000747345-1600x1600.jpg"> </td>
+                        <td>
+                            <article>
+                                <p>
+                                    Captain Morgan es una de las marcas de ron producida por la empresa Diageo. Recibe este nombre por el corsario del Caribe del siglo XVII originario de Gales 
+                                    Sir Henry Morgan. El eslogan de Captain Morgan es: "¿Hay un pequeño capitán en ti?".
+                                    <a href="agregar.html">Agregar botella</a>
+                                    
+                                </p>
+                            </article>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><img id="tequila" src="https://www.costco.com.mx/medias/sys_master/products/h33/hba/12480440172574.jpg"></td>
+                        <td>
+                            <article>
+                                <p>
+                                    1800 Tequila es una marca mexicana de tequila propiedad de la familia Beckmann, quienes también poseen la marca de tequila Jose Cuervo.
+                                    El tequila 100% de agave azul se embotella en Jalisco, México. 1800 lleva el nombre del año en que el tequila se añejó por primera vez en barricas de roble, 
+                                    y se vende en todo el mundo. En los Estados Unidos, la marca es importada y distribuida por la empresa de distribución estadounidense de la familia Beckmann, Proximo Spirits.
+                                    <a href="agregar.html">Agregar botella</a>
+                                </p>
+                            </article>
+                        </td>
+                    </tr>
+                </tbody>
+          </table>
+
+
+          <div class="extra">
+            <aside>
+                <h2>Dato curioso 1</h2>
+                <p>
+                    Mezclar te emborracha antes. Teóricamente, la concentración de alcohol en la sangre o 
+                    es el porcentaje del mismo que circula por la sangre después de ingerir cualquier bebida.
+                </p>
+  
+  
+                <h2>Dato curioso 2</h2>
+                <p>
+                  Para emborracharse no hace falta beber alcohol. A veces basta con creer que estamos bebiendo alcohol para desinhibirnos.
+                  Según un estudio con varias personas, al creer que estaban borrachos, los que no habían tomado alcohol se comportaban como si hubiesen bebido.
+                </p>
+            </aside>
+        </div>
+
+        <footer> 
+            Copyright
+            <script>
+                document.write(new Date().getFullYear());
+             </script>
+        </footer>
+
+        </div>
+    </body>
+    <script type="text/javascript" src="js/carousel.js"></script>
+
+</html>

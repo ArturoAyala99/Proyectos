@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-barra-bar_1284-12723.jpg?size=626&ext=jpg);
+    background-size: 100%;
+}
+h1{
+    color: white;
+}
+
+.menucontenedor{
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 30px;
+}
+nav{
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: .7;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+nav ul{
+    list-style: none;
+}
+.menucontenedor header nav ul li{
+    margin-bottom: 40px;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#galeria{
+    display: inline;
+    color: black;
+    margin-right: 200px;
+    margin-left: 300px;
+    text-decoration: none;
+}
+#contacto{
+    display: inline;
+    color: black;
+    margin-right: 200px;
+    text-decoration: none;
+}
+#inicio{
+    display: inline;
+    color: black;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+
+
+.galeria{
+    font-family: Arial;
+}
+.galeria h1{
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    font-size: 30px;
+}
+.contenedor{
+    display: flex; /*me permite usar las cajas flexibles y sus variantes*/
+    width: 85%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 3px;
+}
+.contenedor .imagen{
+    width: 32%;
+    position: relative;
+    height: 250px;
+    margin-bottom: 200px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0);/*poner sombra*/
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+p{
+    color: white;
+}
+
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,118,192,0, 78);
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+}
+.overlay h2{
+    color: gray;
+    font-weight: 300px;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%); /*para tener la animacion*/
+}
+.imagen:hover .overlay{
+    height: 50%;
+    cursor: pointer;
+}
+
+.diseno {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.modal-content, #caption {  
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+  
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+  
+.close:hover, .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+
+@media screen and (max-width: 768px)
+{ /*hace que cuando achique(768px) la página se muestren 2 cuadros*/
+    .contenedor{
+        width: 90%;
+    }
+    .contenedor .imagen{
+        width: 48%;
+        margin-bottom: 400px;
+    }
+    nav{
+        background: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        opacity: .7;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #galeria{
+       display: inline;
+       color: black;
+       margin: auto;
+       margin-right: 20px;
+       text-decoration: none;
+    }
+    #contacto{
+        display: inline;
+        color: black;
+        margin: auto;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    #inicio{
+        display: inline;
+        color: black;
+        margin: auto;
+        text-decoration: none;
+    }
+
+    .modal-content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1119px)
+{
+    .contenedor{
+        width: 90%;
+    }
+    .contenedor .imagen{
+        width: 48%;
+        margin-bottom: 400px;
+    }
+
+    nav{
+        background: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        opacity: .7;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #galeria{
+       display: inline;
+       color: black;
+       margin: auto;
+       margin-right: 20px;
+       text-decoration: none;
+    }
+    #contacto{
+        display: inline;
+        color: black;
+        margin: auto;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    #inicio{
+        display: inline;
+        color: black;
+        margin: auto;
+        text-decoration: none;
+    }
+    
+}

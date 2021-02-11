@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacto</title>
+        <link rel="stylesheet" type="text/css" href="contacto.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    </head>
+
+    <body>
+        <div class="menucontenedor">
+              <header>
+                <h1>Para contactarnos</h1>
+                <nav>
+                    <ul>
+                        <li> <a id="galeria" href="inicio.html">Inicio</a> </li>
+                        <li> <a id="contacto" href="contacto.html">Contacto</a> </li>
+                        <li> <a id="inicio" href="galeria.html">Galería</a> </li>
+                    </ul>
+                </nav>
+            </header>
+         </div>
+
+        <section>
+            <form>
+                <label for="name">Nombre</label>
+                <input id="name" type="text" name="nombre">
+
+                <label for="asunt">Asunto</label>
+                <input id="asunt" type="text" name="asunto">
+
+                <label for="correo">Email</label>
+                <input id="correo" type="email" name="correo"> <br>
+
+                <label for="mensaj">Mensaje</label>
+                <textarea id="mensaj" rows="4" name="mensaje"></textarea> <br><br>
+
+                
+                <input id="button" type="submit" name="boton" onclick="ValidarDatos(event)">
+
+            </form>
+        </section>
+    </body>
+
+    <script type="text/javascript" src="js/contacto.js"></script>
+</html>

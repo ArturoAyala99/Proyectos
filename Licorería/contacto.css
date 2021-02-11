@@ -1,0 +1,166 @@
+html{
+    background-image: url(https://userscontent2.emaze.com/images/11fcc901-7a9a-4d82-b94d-5702d9ab0a51/706b4a99e47cee71bc9a77fc3a1e1201.jpg);
+    background-size: 100%;
+}
+
+header h1{
+    text-align: center;
+    font-family: arial;
+    color: blue;
+}
+
+.menucontenedor{
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 30px;
+}
+nav{
+    background: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: .7;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+nav ul{
+    list-style: none;
+}
+.menucontenedor header nav ul li{
+    margin-bottom: 40px;
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+#galeria{
+    display: inline;
+    color: black;
+    margin-right: 200px;
+    margin-left: 300px;
+    text-decoration: none;
+}
+#contacto{
+    display: inline;
+    color: black;
+    margin-right: 200px;
+    text-decoration: none;
+}
+#inicio{
+    display: inline;
+    color: black;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+
+
+
+
+section{
+    text-align: center;
+}
+
+form{
+    width: 100%; /*para que estén centrados los elementos input y label*/
+    border: 1px;
+    color: blue;
+}
+label{
+    font-family: arial;
+    font-size: 20px;
+    display: block;
+}
+input{
+    margin-bottom: 40px;
+    padding: 10px;
+}
+input:focus{
+    border:1px darkmagenta;
+    color: red;
+}
+input[type="submit"]{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background: dimgray;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+@media screen and (max-width:720px)
+{
+    nav{
+        background: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        opacity: .7;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #galeria{
+       display: inline;
+       color: black;
+       margin: auto;
+       margin-right: 20px;
+       text-decoration: none;
+    }
+    #contacto{
+        display: inline;
+        color: black;
+        margin: auto;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    #inicio{
+        display: inline;
+        color: black;
+        margin: auto;
+        text-decoration: none;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width:1119px)
+{
+    nav{
+        background: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        opacity: .7;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    #galeria{
+       display: inline;
+       color: black;
+       margin: auto;
+       margin-right: 20px;
+       text-decoration: none;
+    }
+    #contacto{
+        display: inline;
+        color: black;
+        margin: auto;
+        margin-right: 20px;
+        text-decoration: none;
+    }
+    #inicio{
+        display: inline;
+        color: black;
+        margin: auto;
+        text-decoration: none;
+    }
+    
+}
+

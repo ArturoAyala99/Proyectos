@@ -1,0 +1,328 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/2880x1800/1611/Absolut-Vodka-liquor-bottles_2880x1800.jpg);
+    background-size: 100%;
+}
+
+.menucontenedor{
+    font-family: arial;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.menucontenedor header nav{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 40px;
+    background:white;
+    opacity: .7;
+}
+
+.menucontenedor header nav ul{
+    list-style: none;
+}
+.menucontenedor header nav ul li{
+    float: left;
+    
+}
+.menucontenedor header nav ul li a{
+    font-size: 20px;
+}
+
+#galeria{
+   display: inline;
+   color: black;
+   margin-right: 200px;
+   margin-left: 300px;
+   text-decoration: none;
+}
+#contacto{
+    display: inline;
+    color: black;
+    margin-right: 200px;
+    text-decoration: none;
+}
+#inicio{
+    display: inline;
+    color: black;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+
+.contenido {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: auto;
+    background-color:white;
+    opacity: .8;
+}
+
+.contenido table{
+    font-family: arial;
+    margin-left: 20px;
+    padding-top: 20px;
+    width: 800px;
+    border: black;
+    
+}
+
+table tbody #jw{
+    width: 300px;
+}
+table tbody #cm{
+    width: 300px;
+}
+table tbody #tequila{
+    width: 300px;
+}
+
+.extra{
+    background: darkblue;
+    color: white;
+    font-family: arial;
+    text-align: center;
+    margin-left: 900px;
+    margin-right: 20px;
+    margin-top: -900px;
+    margin-bottom: 650px;
+}
+
+footer{
+    text-align: center;
+    font-family: arial;
+}
+
+.contenedor_principal{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    display: inline-block;
+}
+.imagen_principal{
+    width: 100%;
+    height: 600px;
+}
+.titulo_logo{
+    position: absolute;
+    top: 400px;
+    left: 10px;
+    font-family: Arial;
+    color: white;
+}
+.texto_logo{
+    position: absolute;
+    top: 440px;
+    left: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    color: white;  
+}
+
+.carousel{
+    max-width: 3000px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    display: flex;
+}
+#titulo_galeria{
+    font-family: Arial;
+    color:cadetblue;
+    margin-left: 10px;
+}
+#prev{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+#next{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+#imagen1 {
+    width: 700px;
+    height: 320px;
+    background-size: cover;
+}
+#imagen2 {
+    width: 700px;
+    height: 320px;
+    background-size: cover;
+}
+#imagen3 {
+    width: 700px;
+    height: 320px;
+    background-size: cover;
+}
+#imagen4 {
+    width: 700px;
+    height: 320px;
+    background-size: cover;
+}
+.controles{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#play{
+    font-size: 25px;
+}
+#stop{
+    font-size: 25px;
+}
+
+
+
+
+
+@media screen and (max-width:720px) 
+{
+   
+    
+    .menucontenedor header nav{
+        margin-left:10px ;
+        margin-right: 10px;
+        padding: 40px;
+        background:white;
+        opacity: .7;
+    }
+    
+    #galeria{
+       display: inline;
+       color: black;
+       margin: auto;
+       margin-right: 90px;
+       text-decoration: none;
+    }
+    #contacto{
+        display: inline;
+        color: black;
+        margin: auto;
+        margin-right: 90px;
+        text-decoration: none;
+    }
+    #inicio{
+        display: inline;
+        color: black;
+        margin: auto;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+    .contenido {
+        margin-left:10px ;
+        margin-right: 10px;
+        padding-bottom: auto;
+        padding: auto;
+        background-color:white;
+        opacity: .8;
+    } 
+    
+    .contenido table{
+        font-family: arial;
+        padding-right: 40px;
+        margin-left: 20px;
+        padding-top: 20px;
+        width: 100%;
+        border: black; 
+    }
+    
+    table tbody #jw{
+        width: 100%;
+    }
+    table tbody #cm{
+        width: 100%;
+    }
+    table tbody #tequila{
+        width: 100%;
+    }
+    
+    .extra{
+        margin-left: 20px;
+        padding: auto;
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+@media screen and (max-width:1119px) 
+{
+   
+    
+    .menucontenedor header nav{
+        margin-left:10px ;
+        margin-right: 10px;
+        padding: 40px;
+        background:white;
+        opacity: .7;
+    }
+    
+    #galeria{
+       display: inline;
+       color: black;
+       margin: auto;
+       margin-right: 10px;
+       text-decoration: none;
+    }
+    #contacto{
+        display: inline;
+        color: black;
+        margin: auto;
+        margin-right: 10px;
+        text-decoration: none;
+    }
+    #inicio{
+        display: inline;
+        color: black;
+        margin: auto;
+        text-decoration: none;
+    }
+    
+    
+    
+    
+    .contenido {
+        margin-left:10px ;
+        margin-right: 10px;
+        padding-bottom: auto;
+        padding: auto;
+        background-color:white;
+        opacity: .8;
+    } 
+    
+    .contenido table{
+        font-family: arial;
+        padding-right: 40px;
+        margin-left: 20px;
+        padding-top: 20px;
+        width: 100%;
+        border: black; 
+    }
+    
+    table tbody #jw{
+        width: 100%;
+    }
+    table tbody #cm{
+        width: 100%;
+    }
+    table tbody #tequila{
+        width: 100%;
+    }
+    
+    .extra{
+        padding-right: 20px;
+        margin-left: 20px;
+        
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+    
+}
